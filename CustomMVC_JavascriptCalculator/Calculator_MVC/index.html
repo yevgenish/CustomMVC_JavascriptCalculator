@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <link type="text/css" href="./style/style.css" rel="stylesheet" />
+        <script type="text/javascript" src="./src/jquery-3.3.1.js"></script>
+        <script type="text/javascript" src="./src/validator.js"></script>        
+    </head>
+    <body>
+        <div class="main-area">
+            <h1>Calculator</h1>
+            <!--<p class="calc-types">
+            <label><input type="radio" name="calc-type" value="standard" checked="checked" />Standard</label>
+            <label><input type="radio" name="calc-type" value="standard" />Standard</label>
+            <label><input type="radio" name="calc-type" value="scientific" />Scientific</label>
+            <label><input type="radio" name="calc-type" value="programmer" />Programmer</label>
+        </p>-->
+            <p class="calc-types">
+            </p>
+            <p>
+                <span>
+                    <input type="text" class="calc-input" id="txtLeft" />
+                    <select name="sign" id="calcSign" class="calc-input"></select>
+                    <input type="text" class="calc-input" id="txtRight" />
+                    <span class="calc-equals">=</span>
+                    <span id="calcResult" class="calc-result"></span>
+                </span>
+            </p>
+        </div>
+        <script src="src/Validator.js"></script>
+        <script src="src/MathCalculator.js"></script>
+        <script src="src/EventDispatcher.js"></script>
+        <script src="src/CalcModel.js"></script>
+        <script src="src/CalcView.js"></script>
+        <script src="src/CalcController.js"></script>
+        <script src="src/App.js"></script>
+    </body>
+</html>

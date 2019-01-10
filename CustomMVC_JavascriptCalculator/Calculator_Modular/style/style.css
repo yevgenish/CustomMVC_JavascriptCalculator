@@ -1,0 +1,32 @@
+body, div{
+    vertical-align: middle;
+    text-align: center;
+}
+
+.main-area{
+    margin:80px;
+}
+
+.calc-types {
+}
+
+.calc-input {
+    width: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    background: #DFDBDB;
+    padding: 3px;
+    border: 1px solid #cccccc;
+}
+
+.calc-types input[type="radio"] {
+    
+}
+
+.calc-types label{
+    margin:10px;
+}
+
+.calc-result {
+    margin: 10px;
+}

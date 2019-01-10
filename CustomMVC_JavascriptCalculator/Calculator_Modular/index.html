@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <link type="text/css" href="./style/style.css" rel="stylesheet" />
+        <script type="text/javascript" src="./src/jquery-3.3.1.js"></script>
+        <script type="text/javascript" src="./src/validator.js"></script>        
+    </head>
+    <body>
+        <div class="main-area">
+            <h1>Calculator</h1>
+            <p class="calc-types">
+                <label><input type="radio" name="calc-type" value="standard" checked="checked" />Standard</label>
+                <label><input type="radio" name="calc-type" value="scientific" />Scientific</label>
+                <label><input type="radio" name="calc-type" value="programmer" />Programmer</label>
+            </p>
+            <p>
+                <span>
+                    <input type="text" class="calc-input" id="txtLeft" />
+                    <select name="sign" id="selSign" class="calc-input"></select>
+                    <input type="text" class="calc-input" id="txtRight" />
+                    <span class="calc-equals">=</span>
+                    <span id="calcResult" class="calc-result"></span>
+                </span>
+            </p>
+        </div>
+        <script type="text/javascript" src="./src/calculator.js"></script>
+        <script type="text/javascript" src="./src/script.js"></script>
+    </body>
+</html>
