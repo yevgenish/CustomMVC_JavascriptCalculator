@@ -1,7 +1,7 @@
 # CustomMVC_JavascriptCalculator
 Custom MVC calculator in javascript<br />
 
-The project uses jQuery to access DOM elements<br /><br />
+The project uses jQuery to access DOM elements<br />
 
 <b>Calculator_Modular</b><br />
 represents modular approach<br /><br />
