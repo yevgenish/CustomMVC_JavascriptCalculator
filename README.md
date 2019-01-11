@@ -1,5 +1,5 @@
 # CustomMVC_JavascriptCalculator
-Custom MVC calculator in javascript<br />
+Custom MVC (Model, View Controller) calculator in javascript<br />
 
 <b>Calculator_Modular</b><br />
 represents modular approach<br />
